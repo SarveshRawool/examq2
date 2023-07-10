@@ -34,6 +34,7 @@ appforemp.get("/:auther", (request, response)=>{
 
 
 
+
 appforemp.post("/",(request,response)=>{
     var query=`insert into Book_Tb values(${request.body.id},'${request.body.b_name}','${request.body.auther}','${request.body.book_type}','${request.body.price}','${request.body.publishedDate}','${request.body.language}');`
    //var query = `insert into Employee_Tb values(${request.body.Eno},'${request.body.Ename}','${request.body.Email}','${request.body.Epassword}',${request.body.Eid},'${request.body.Edname}','${request.body.Edoj}')` ;
