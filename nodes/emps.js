@@ -1,14 +1,13 @@
 const express=require('express');
-const config=require('config');
 const appforemp=express.Router();
 const mysql=require('mysql2');
 const { request } = require('http');
 const { error } = require('console');
 var connection =mysql.createConnection({
-    host    :   config.get("host"),
-    user    :   config.get("user"),
-    password    :   config.get("password"),
-    database    :   config.get("database"),
+    host    :  "localhost",
+    user    :   "root",
+    password    :   "manager",
+    database    :   "exam",
 });
 
 

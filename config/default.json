@@ -1,7 +1,0 @@
-{
-    "port":1234,
-    "host":"localhost",
-    "password":"root",
-    "user":"manager",
-    "database":"exam"
-}

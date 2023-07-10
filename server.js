@@ -1,6 +1,5 @@
 const express=require('express');
 const emprouts=require('./nodes/emps');
-const config=require('config');
 var app=express();
 
 
@@ -14,8 +13,7 @@ app.use(express.json());
 
 app.use("/books",emprouts);
 
-const portNo =config.get("port");
-app.listen(portNo,()=>{
+app.listen(1234,()=>{
     console.log("server is listening at port no 1234");
 })
 
