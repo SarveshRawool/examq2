@@ -5,8 +5,8 @@ const { request } = require('http');
 const { error } = require('console');
 var connection =mysql.createConnection({
     host    :  "localhost",
-    user    :   "root",
-    password    :   "manager",
+    user    :   "sarvesh",
+    password    :   "sarvesh",
     database    :   "exam",
 });
 
