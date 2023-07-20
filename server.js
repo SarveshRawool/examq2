@@ -18,4 +18,9 @@ app.listen(1234,()=>{
 })
 
 
+
+
+
+//jhgvfhc
+
 //create table movie(movieid int(4) auto_increment primary key,moviename varchar(15),director varchar(20),rating int(1) check(rating in(1,2,3,4,5)));
